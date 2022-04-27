@@ -1,0 +1,44 @@
+{
+    "name": "prikkprikkprikk/norwegianfaker",
+    "description": "Adds some more Norwegian faker content",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jørn Støylen",
+            "email": "jorn@prikkprikkprikk.no",
+            "homepage": "https://www.designerandgeek.com/"
+        }
+    ],
+    "homepage": "https://github.com/prikkprikkprikk/norwegianfaker",
+    "keywords": ["Laravel", "Faker", "Norwegian"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prikkprikkprikk\\NorwegianFaker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Prikkprikkprikk\\NorwegianFaker\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prikkprikkprikk\\NorwegianFaker\\NorwegianFakerServiceProvider"
+            ],
+            "aliases": {
+                "NorwegianFaker": "Prikkprikkprikk\\NorwegianFaker\\Facades\\NorwegianFaker"
+            }
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}

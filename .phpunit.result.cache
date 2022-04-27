@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Tests\\Feature\\NorwegianFakerTest::it_provides_a_text_faker":0.054,"Tests\\Feature\\NorwegianFakerTest::it_provides_a_company_faker":0.003,"Tests\\Feature\\NorwegianFakerTest::it_can_make_a_company_name":0.003}}
